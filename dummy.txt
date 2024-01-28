@@ -1,0 +1,11 @@
+detect = st.text_input(
+    '', '', placeholder=st.session_state['words']["text_input_placeholder"])
+
+if st.button(st.session_state['words']["button"], type="primary"):
+    decision = predict(detect)
+    if decision:
+        st.error(st.session_state['words']["error"])
+        st.write(st.session_state['words']["write"], unsafe_allow_html=True)
+
+    else:
+        st.success(st.session_state['words']["success"])
