@@ -3,6 +3,6 @@ numpy==1.24.4
 pandas==1.4.2
 PySastrawi==1.2.0
 Sastrawi==1.0.1
+protobuf==3.20.0
 streamlit==1.25.0
 tensorflow==2.10.0
-protobuf==3.20.0
