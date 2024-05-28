@@ -4,4 +4,4 @@ pandas==1.4.2
 PySastrawi==1.2.0
 Sastrawi==1.0.1
 streamlit
-tensorflow
+tensorflow==2.10.0
