@@ -5,8 +5,8 @@ from lang import change_lang
 # Default lang (indo)
 if 'words' not in st.session_state:
     st.session_state['words'] = {
-        "title": "Pendeteksi Ujaran Kebencian",
-        "desc": "Dalam Bahasa Indonesia",
+        "title": "Selamat Datang 👋",
+        "desc": "Website pendeteksi ujaran kebencian dalam Bahasa Indonesia",
         "text_input_placeholder": "Masukkan kalimat disini",
         "option": "Pilih bahasa antarmuka",
         "button": "Deteksi",
