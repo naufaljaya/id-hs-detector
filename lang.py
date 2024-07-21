@@ -1,8 +1,8 @@
 def change_lang(lang):
 
     Indonesia = {
-        "title": "Pendeteksi Ujaran Kebencian",
-        "desc": "Dalam Bahasa Indonesia",
+        "title": "Selamat Datang 👋",
+        "desc": "Website pendeteksi ujaran kebencian dalam Bahasa Indonesia",
         "text_input_placeholder": "Masukkan kalimat disini",
         "option": "Pilih bahasa antarmuka",
         "button": "Deteksi",
@@ -11,8 +11,8 @@ def change_lang(lang):
         "success": ":heavy_check_mark: Tidak terdeteksi ujaran kebencian"
     }
     English = {
-        "title": "Hate Speech Detector",
-        "desc": "In Indonesia Language",
+        "title": "Welcome 👋",
+        "desc": "Hate speech detection website in Indonesian Language",
         "text_input_placeholder": "Enter a sentence here",
         "option": "Select language as interface",
         "button": "Detect",
@@ -21,8 +21,8 @@ def change_lang(lang):
         "success": ":heavy_check_mark: No hate speech detected"
     }
     korea = {
-        "title": "증오심 표현 탐지기",
-        "desc": "인도네시아 언어",
+        "title": "환영 👋",
+        "desc": "인도네시아어로 된 증오심 표현 탐지 웹사이트",
         "text_input_placeholder": "여기에 문장을 입력하세요",
         "option": "인터페이스로 언어 선택",
         "button": "감지",
